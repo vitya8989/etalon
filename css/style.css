@@ -83,6 +83,8 @@ body {
     object-fit: cover; } }
 
 @media (min-width: 1360px) {
+  .section__image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 calc(100vw - (((100vw-1360px) / 2) + ((1360px - 40px) * 0.4) + 20px));
   flex: 0 0 calc(100vw - (((100vw-1360px) / 2) + ((1360px - 40px) * 0.4) + 20px)); }
+}
